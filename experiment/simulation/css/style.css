@@ -25,6 +25,14 @@
    
        top: 120;
       }
+      #height{
+        position: relative;
+        left: 348px;
+        bottom: 95px;
+        font-size: 15px;
+        font-weight: bold;
+    
+      }
       .container {
         display: flex;
         flex-direction: row;
