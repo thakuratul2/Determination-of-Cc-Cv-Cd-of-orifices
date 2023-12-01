@@ -16,6 +16,22 @@ document.getElementById("x").innerHTML = "63.1";
 document.getElementById("y").innerHTML = "19";
 document.getElementById("t").innerHTML = "162";
 document.getElementById("time").innerHTML = "162sec";
+var myWater22 = document.getElementById("mot22");
+
+  myWater22.style.top = "236px";
+  myWater22.style.transform = "rotate(12deg)";
+
+  var myWater23 = document.getElementById("mot23");
+
+  myWater23.style.top = "249px";
+
+  var myWater25 = document.getElementById("mot25");
+
+  myWater25.style.top = "266px";
+
+  var myWater24 = document.getElementById("mot24");
+
+  myWater24.style.top = "281px";
 function clickedMot(){
   document.getElementById("time").innerHTML = "";
   setTimeout(function() {
@@ -110,7 +126,12 @@ document.addEventListener('DOMContentLoaded', function () {
   var cc=cd/cv;
   var cc=parseFloat(cc).toFixed( 3 );
  // document.getElementById("cc2").innerHTML = cc;
- document.getElementById("read1").style.visibility = "visible";
+ var myWater21 = document.getElementById("mot21");
+
+ myWater21.style.top = "228px";
+ var myWater22 = document.getElementById("mot22");
+
+  myWater22.style.top = "226px";
     }
    else if(clickCount==1)
    {
@@ -156,6 +177,19 @@ document.addEventListener('DOMContentLoaded', function () {
     var cc=parseFloat(cc).toFixed( 3 );
     //document.getElementById("cc1").innerHTML = cc;
     document.getElementById("read1").style.visibility = "visible";
+
+    //water flow
+    var myWater22 = document.getElementById("mot22");
+
+    myWater22.style.top = "237px";
+    var myWater23 = document.getElementById("mot23");
+
+    myWater23.style.top = "238px";
+    myWater23.style.transform = "rotate(12deg)";
+
+    var myWater25 = document.getElementById("mot25");
+
+  myWater25.style.top = "253px";
    }
    else if(clickCount==2){
     slider.value=69.7;
@@ -168,6 +202,17 @@ document.addEventListener('DOMContentLoaded', function () {
   document.getElementById("y").innerHTML = "17";
   document.getElementById("t").innerHTML = "146";
   document.getElementById("time").innerHTML = "146sec";
+  var myWater25 = document.getElementById("mot25");
+
+  myWater25.style.top = "260px";
+
+  var myWater24 = document.getElementById("mot24");
+
+  myWater24.style.top = "265px";
+  myWater24.style.transform = "rotate(10deg)";
+  var myWater23 = document.getElementById("mot23");
+
+  myWater23.style.top = "249px";
   var x=70;
   var y=17;
   
