@@ -25,16 +25,15 @@
           
           The value of Y is <span id="range-value"></span>cm
         </div>
-        <div id="height">
-          
-          Height = 20 cm
-        </div>
-        <p style="background-color: yellow; position: absolute; top:50; left:270; border:1px solid black;">Move scale to get value of X</p>
+        <button id="clickButton">
+        <p style="background-color: rgb(6, 180, 3);font-weight: bold; position: absolute; top:30; left:270; border:2px solid black; padding:6px 6px; border-radius: 20px;">Click me to move vertical <br>scale for value of X</p></button>
         <div class="slider-container">
           <input type="range" min="63.1" max="70" value="60" step="2.2" class="slider" id="myRange">
           
         </div>
-
+        <img  class="timer" src="./images/timer.png" style="position: absolute; top:200; right:50; height:100px; width:100px; ">
+        <p id="time" style="position: absolute; top:230; right:78;"></p>
+        <p style="position: absolute; top:300; right:5;">height of scale<br>=162cm</p>
         <div class="vl1"></div>
         <div class="vl2"></div>
         <div class="vl3"></div>
@@ -142,7 +141,7 @@
 
 
         <label id="outlab">
-          turn the outlet valve to set the flow rate</label>
+          time taken to fill the water tank</label>
         <button id="outlet" class="valve" onclick="clickedValve()"></button>
         <label id="gatelab">turn the gate valve off</label>
 
@@ -174,11 +173,11 @@
           <th rowspan="2">Q<sub>th</sub>= C √H</th>
           <th rowspan="2">C<sub>d</sub>= Q<sub>a</sub>/Q<sub>th</sub></th>
           <th rowspan="2">C <sub>v</sub> = x / √4yH</th>
-          <th rowspan="2">C <sub>c</sub> = cd/cv</th>
+          <th rowspan="2">C <sub>c</sub> = C<sub>d</sub>/C<sub>v</sub></th>
           </tr>
         <tr>
-          <td id="dm1">x</td>
-          <td id="dm2">y</td>
+          <td id="dm1">X</td>
+          <td id="dm2">Y</td>
           </tr>
 
         <tr id="read1">

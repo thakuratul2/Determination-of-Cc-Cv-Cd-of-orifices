@@ -20,12 +20,15 @@ function clickedValve() {
         j++;
       } else {
         document.getElementById("outlab").style.opacity = 1;
+        document.getElementById("time").style.opacity = 1;
+      
         clearInterval(pipe);
       }
     }, 100);
   }
 
   document.getElementById("outlab").style.opacity = 0;
+  document.getElementById("time").style.opacity = 0;
   if (flow < 1700 && dir == 0) {
     flow = flow + 100;
     rot = rot + 45;
@@ -42,6 +45,7 @@ function clickedValve() {
     rot = rot - 45;
   }
   document.getElementById("gatelab").style.opacity = 1;
+ 
   document.getElementById("outlet").style.transform = "rotate(" + rot + "deg)";
 }
 
@@ -83,6 +87,7 @@ function clickedMot() {
 var gate = 1;
 function clickedgate() {
   document.getElementById("gatelab").style.opacity = 0;
+ 
   var h = document.getElementById("fillfinal");
 
   document.getElementById("labFlow").innerText = "";
