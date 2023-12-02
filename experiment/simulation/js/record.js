@@ -210,6 +210,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   myWater24.style.top = "265px";
   myWater24.style.transform = "rotate(10deg)";
+  
   var myWater23 = document.getElementById("mot23");
 
   myWater23.style.top = "249px";
