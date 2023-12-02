@@ -202,6 +202,7 @@ document.addEventListener('DOMContentLoaded', function () {
   document.getElementById("y").innerHTML = "17";
   document.getElementById("t").innerHTML = "146";
   document.getElementById("time").innerHTML = "146sec";
+  
   var myWater25 = document.getElementById("mot25");
 
   myWater25.style.top = "260px";
@@ -210,7 +211,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   myWater24.style.top = "265px";
   myWater24.style.transform = "rotate(10deg)";
-  
+
   var myWater23 = document.getElementById("mot23");
 
   myWater23.style.top = "249px";
