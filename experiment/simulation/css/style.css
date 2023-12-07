@@ -10,8 +10,8 @@
         position: absolute;
         height: 250px;
         width: 270px;
-        top: 250px;
-        left: 30px;
+        top: 800px;
+        left: 900px;
         border: 2px black solid;
       }
       .instruction h2{
@@ -21,7 +21,7 @@
         text-decoration: underline;
       }
       .instruction p{
-        text-align: center;
+        margin-left: 15px;
       }
       .baseimg{
         position: relative;
@@ -30,17 +30,17 @@
       }
       #value{
         position: absolute;
-       right:90;
+       right: 263px;;
       font-weight: bold;
    
-       top: 60;
+       top: 47px;
       }
       #value2{
         position: absolute;
-        right:90;
+        right: 260px;;
       font-weight: bold;
    
-       top: 80;
+       top: 72px;
       }
       .container {
         display: flex;
