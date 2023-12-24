@@ -46,15 +46,13 @@ The set up consists of a sump tank, measuring tank and constant head tank. Orifi
 
 ### DATA
 
-Area of measuring tank = 0.077 m2
-Diameter of the orifice (d) = 0.015 m
 <img src="images/test7.png"/>
 
 ### OBSERVATIONS
 
 Initial reading of horizontal scale X0 = _0____ cm
 Initial reading of vertical scale Y0 = __0___ cm
-Reading on the piezometer at the level on the centre of orifice = 8 cm
+
 <img src="images/table.png" />
 
 ### CALCULATIONS
